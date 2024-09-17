@@ -7,19 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{439738
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.Domain", "Source\TaxiApp.Domain\TaxiApp.Domain.csproj", "{B4F42EE6-A743-406E-9CCF-9EE495A3BDC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.Applicaion", "Source\TaxiApp.Applicaion\TaxiApp.Applicaion.csproj", "{BD6DB636-AE6F-4A9F-974C-F6D6335060F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.Applicaion", "Source\TaxiApp.Applicaion\TaxiApp.Applicaion.csproj", "{BD6DB636-AE6F-4A9F-974C-F6D6335060F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.Domain.Shared", "Source\TaxiApp.Domain.Shared\TaxiApp.Domain.Shared.csproj", "{AAB8ADF3-0FCC-4E5C-883A-8FCAE794B7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.Domain.Shared", "Source\TaxiApp.Domain.Shared\TaxiApp.Domain.Shared.csproj", "{AAB8ADF3-0FCC-4E5C-883A-8FCAE794B7C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.Application.Contracts", "Source\TaxiApp.Application.Contracts\TaxiApp.Application.Contracts.csproj", "{8926810B-D19A-4CE0-801C-7C66A2C845EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.Application.Contracts", "Source\TaxiApp.Application.Contracts\TaxiApp.Application.Contracts.csproj", "{8926810B-D19A-4CE0-801C-7C66A2C845EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.EntityFrameworkCore", "Source\TaxiApp.EntityFrameworkCore\TaxiApp.EntityFrameworkCore.csproj", "{D16938FB-BF1E-4F67-8C83-A9B86089E27A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.EntityFrameworkCore", "Source\TaxiApp.EntityFrameworkCore\TaxiApp.EntityFrameworkCore.csproj", "{D16938FB-BF1E-4F67-8C83-A9B86089E27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.HttpApi", "Source\TaxiApp.HttpApi\TaxiApp.HttpApi.csproj", "{6B9DA069-6DD5-4FDD-96C9-118C54179732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.HttpApi", "Source\TaxiApp.HttpApi\TaxiApp.HttpApi.csproj", "{6B9DA069-6DD5-4FDD-96C9-118C54179732}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{39F7A130-6B33-4987-849E-D87C8234B857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.Application.Tests", "Test\TaxiApp.Application.Tests\TaxiApp.Application.Tests.csproj", "{AC71E055-73F1-4A5C-B7FD-F877F96EA70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiApp.Application.Tests", "Test\TaxiApp.Application.Tests\TaxiApp.Application.Tests.csproj", "{AC71E055-73F1-4A5C-B7FD-F877F96EA70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiApp.Domin.Core", "Source\TaxiApp.Domin.Core\TaxiApp.Domin.Core.csproj", "{93A573ED-33A0-4F3C-B2E0-63E7004557E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{AC71E055-73F1-4A5C-B7FD-F877F96EA70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC71E055-73F1-4A5C-B7FD-F877F96EA70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC71E055-73F1-4A5C-B7FD-F877F96EA70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A573ED-33A0-4F3C-B2E0-63E7004557E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A573ED-33A0-4F3C-B2E0-63E7004557E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A573ED-33A0-4F3C-B2E0-63E7004557E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A573ED-33A0-4F3C-B2E0-63E7004557E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{D16938FB-BF1E-4F67-8C83-A9B86089E27A} = {4397389E-9101-4B68-86FF-27613D708678}
 		{6B9DA069-6DD5-4FDD-96C9-118C54179732} = {4397389E-9101-4B68-86FF-27613D708678}
 		{AC71E055-73F1-4A5C-B7FD-F877F96EA70D} = {39F7A130-6B33-4987-849E-D87C8234B857}
+		{93A573ED-33A0-4F3C-B2E0-63E7004557E5} = {4397389E-9101-4B68-86FF-27613D708678}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E195D9F9-2160-4EFF-AD5C-6DE790A19A10}

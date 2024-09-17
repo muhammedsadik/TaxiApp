@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TaxiApp.Domain.Shared\TaxiApp.Domain.Shared.csproj" />
-    <ProjectReference Include="..\TaxiApp.Domin.Core\TaxiApp.Domin.Core.csproj" />
-  </ItemGroup>
-
 </Project>
