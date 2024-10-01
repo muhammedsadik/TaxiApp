@@ -7,8 +7,9 @@ using TaxiApp.Domain.Shared.Entities;
 
 namespace TaxiApp.Domain.Entities.Users
 {
-  public class User : Entity
+  public class User : IEntity
   {
+    public Guid Id { get; set; }
     public string UserName { get; set; }
     public string NormalizedUserName { get; set; }
     public string Surname { get; set; }
@@ -30,6 +31,11 @@ namespace TaxiApp.Domain.Entities.Users
     public bool IsDelated { get; set; }
     public Guid? DelaterId { get; set; }
     public DateTime DelationTime { get; set; }
+
+    public User()
+    {
+
+    }
 
     public User(string userName, string surname, string email, string phoneNumber)
     {

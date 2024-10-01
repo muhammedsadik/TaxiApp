@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaxiApp.EntityFrameworkCore.Concrete.EntityFrameworkCore.DbContext
 {
-  public class TaxiAppDbContext
+  public class TaxiAppDbContext : DbContext
   {
   }
 }
