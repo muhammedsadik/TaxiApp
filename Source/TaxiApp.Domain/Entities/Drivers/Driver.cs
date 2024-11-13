@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaxiApp.Domain.Shared.Entities
+namespace TaxiApp.Domain.Entities.Drivers
 {
-  public interface IEntity
+  public class Driver
   {
-    public Guid Id { get; set; }
   }
 }

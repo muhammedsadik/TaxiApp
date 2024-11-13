@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaxiApp.Applicaion\TaxiApp.Applicaion.csproj" />
+    <ProjectReference Include="..\TaxiApp.Application.Contracts\TaxiApp.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

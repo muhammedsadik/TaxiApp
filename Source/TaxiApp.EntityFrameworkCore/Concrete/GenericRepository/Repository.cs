@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using TaxiApp.Domain.Shared.Entities;
+using TaxiApp.Core.Entities;
 
 namespace TaxiApp.EntityFrameworkCore.Concrete.GenericRepository
 {
