@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaxiApp.Domain.Shared.Entities;
+using TaxiApp.Core.Entities;
 
-namespace TaxiApp.Domain.Entities.Users
+namespace TaxiApp.Core.Entities
 {
+
   public class User : IEntity
   {
     public Guid Id { get; set; }

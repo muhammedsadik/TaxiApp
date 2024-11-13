@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TaxiApp.Core\TaxiApp.Core.csproj" />
     <ProjectReference Include="..\TaxiApp.Domain.Shared\TaxiApp.Domain.Shared.csproj" />
   </ItemGroup>
 

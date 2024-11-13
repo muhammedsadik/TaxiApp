@@ -1,7 +1,17 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using TaxiApp.Applicaion.DependencyResolvers;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+{
+  builder.RegisterModule(new AutofacApplicationModule());
+});
+
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("Default");
+var connectionString = builder.Configuration.GetConnectionString("Postgre");
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

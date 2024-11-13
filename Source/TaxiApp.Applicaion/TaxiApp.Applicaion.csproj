@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AppService\" />
+    <ProjectReference Include="..\TaxiApp.Application.Contracts\TaxiApp.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TaxiApp.Core\TaxiApp.Core.csproj" />
+    <ProjectReference Include="..\TaxiApp.Domain\TaxiApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.1.1" />
   </ItemGroup>
 
 </Project>
